@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface CurrencyConverter {
+public interface CurrencyConverter {
+    double convert(double amount, String fromCurrency, String toCurrency);
+
 }
